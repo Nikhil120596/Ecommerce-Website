@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@150&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/2ce47ac7b3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cart-overlay" class="cart-overlay">
+        <div id="cart" class="cart">
+            <a href="index.html">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+            </a>
+            <h2>your cart</h2>
+            <div id="cart-content" class="cart-content">
+
+            </div>
+            <div class="cart-footer">
+                <h3>your total : ₹ <span id="cart-total" class="cart-total">0</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="ProductData.js"></script>
+    <script src="Cart.js"></script>
+</body>
+
+</html>
